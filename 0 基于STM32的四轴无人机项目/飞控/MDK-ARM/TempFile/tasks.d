@@ -1,0 +1,16 @@
+.\tempfile\tasks.o: FreeRTOS\tasks.c
+.\tempfile\tasks.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\tempfile\tasks.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\tempfile\tasks.o: ./FreeRTOS/include/FreeRTOS.h
+.\tempfile\tasks.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\tempfile\tasks.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tempfile\tasks.o: ./FreeRTOS/FreeRTOSConfig.h
+.\tempfile\tasks.o: ./FreeRTOS/include/projdefs.h
+.\tempfile\tasks.o: ./FreeRTOS/include/portable.h
+.\tempfile\tasks.o: ./FreeRTOS/include/deprecated_definitions.h
+.\tempfile\tasks.o: ./FreeRTOS/protable/portmacro.h
+.\tempfile\tasks.o: ./FreeRTOS/include/mpu_wrappers.h
+.\tempfile\tasks.o: ./FreeRTOS/include/task.h
+.\tempfile\tasks.o: ./FreeRTOS/include/list.h
+.\tempfile\tasks.o: ./FreeRTOS/include/timers.h
+.\tempfile\tasks.o: ./FreeRTOS/include/stack_macros.h

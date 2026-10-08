@@ -1,0 +1,91 @@
+
+==================================================
+  OLED Driver Unit Tests (Python port)
+==================================================
+
+[OLED_SetPixel]
+  Running test_SetPixel_Normal_InsideBounds... PASSED
+  Running test_SetPixel_Normal_OutOfBounds... PASSED
+  Running test_SetPixel_Reversed_ClearsPixel... PASSED
+  Running test_SetPixel_MultiplePixels... PASSED
+  Running test_SetPixel_BoundaryConditions... PASSED
+
+[OLED_NewFrame]
+  Running test_NewFrame_ClearsGRAM... PASSED
+
+[OLED_SetByte]
+  Running test_SetByte_Normal... PASSED
+  Running test_SetByte_Reversed... PASSED
+  Running test_SetByte_OutOfBounds... PASSED
+
+[OLED_SetByte_Fine]
+  Running test_SetByte_Fine_Normal_SetMiddleBits... PASSED
+  Running test_SetByte_Fine_Reversed_ClearsBits... PASSED
+  Running test_SetByte_Fine_OutOfBounds... PASSED
+
+[OLED_SetBits]
+  Running test_SetBits_NoPageCross... PASSED
+  Running test_SetBits_WithPageCross... PASSED
+  Running test_SetBits_ReversedMode... PASSED
+
+[OLED_SetBits_Fine]
+  Running test_SetBits_Fine_NoPageCross... PASSED
+  Running test_SetBits_Fine_PageCross... PASSED
+
+[OLED_SetBlock]
+  Running test_SetBlock_FullBytes... PASSED
+  Running test_SetBlock_PartialHeight... PASSED
+
+[OLED_DrawLine]
+  Running test_DrawLine_Horizontal... PASSED
+  Running test_DrawLine_Horizontal_Reversed... PASSED
+  Running test_DrawLine_Vertical... PASSED
+  Running test_DrawLine_Vertical_Reversed... PASSED
+  Running test_DrawLine_Diagonal... PASSED
+  Running test_DrawLine_SinglePoint... PASSED
+
+[OLED_DrawRectangle]
+  Running test_DrawRectangle_Basic... PASSED
+
+[OLED_DrawFilledRectangle]
+  Running test_DrawFilledRectangle_Basic... PASSED
+
+[OLED_DrawTriangle]
+  Running test_DrawTriangle_Basic... PASSED
+
+[OLED_DrawFilledTriangle]
+  Running test_DrawFilledTriangle_Basic... PASSED
+
+[OLED_DrawCircle]
+  Running test_DrawCircle_Basic... PASSED
+  Running test_DrawCircle_ZeroRadius... PASSED
+
+[OLED_DrawFilledCircle]
+  Running test_DrawFilledCircle_Basic... PASSED
+
+[OLED_DrawEllipse]
+  Running test_DrawEllipse_Basic... PASSED
+  Running test_DrawEllipse_CircleLike... PASSED
+
+[OLED_DrawImage]
+  Running test_DrawImage_Basic... PASSED
+
+[OLED_PrintASCIIChar]
+  Running test_PrintASCIIChar_Basic... PASSED
+
+[OLED_PrintASCIIString]
+  Running test_PrintASCIIString_Basic... PASSED
+  Running test_PrintASCIIString_Empty... PASSED
+
+[_OLED_GetUTF8Len]
+  Running test_GetUTF8Len_ASCII... PASSED
+  Running test_GetUTF8Len_2Byte... PASSED
+  Running test_GetUTF8Len_3Byte... PASSED
+  Running test_GetUTF8Len_4Byte... PASSED
+  Running test_GetUTF8Len_Invalid... PASSED
+
+==================================================
+  Results: 43 passed, 0 failed, 43 total
+  Success rate: 100.0%
+==================================================
+

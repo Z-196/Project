@@ -1,0 +1,15 @@
+.\fly_bldc\queue.o: FreeRTOS\queue.c
+.\fly_bldc\queue.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\fly_bldc\queue.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/FreeRTOS.h
+.\fly_bldc\queue.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\fly_bldc\queue.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\fly_bldc\queue.o: ./FreeRTOS/FreeRTOSConfig.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/projdefs.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/portable.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/deprecated_definitions.h
+.\fly_bldc\queue.o: ./FreeRTOS/protable/portmacro.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/mpu_wrappers.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/task.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/list.h
+.\fly_bldc\queue.o: ./FreeRTOS/include/queue.h

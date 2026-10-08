@@ -1,0 +1,12 @@
+.\fly_bldc\port.o: FreeRTOS\protable\port.c
+.\fly_bldc\port.o: ./FreeRTOS/include/FreeRTOS.h
+.\fly_bldc\port.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\fly_bldc\port.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\fly_bldc\port.o: ./FreeRTOS/FreeRTOSConfig.h
+.\fly_bldc\port.o: ./FreeRTOS/include/projdefs.h
+.\fly_bldc\port.o: ./FreeRTOS/include/portable.h
+.\fly_bldc\port.o: ./FreeRTOS/include/deprecated_definitions.h
+.\fly_bldc\port.o: ./FreeRTOS/protable/portmacro.h
+.\fly_bldc\port.o: ./FreeRTOS/include/mpu_wrappers.h
+.\fly_bldc\port.o: ./FreeRTOS/include/task.h
+.\fly_bldc\port.o: ./FreeRTOS/include/list.h

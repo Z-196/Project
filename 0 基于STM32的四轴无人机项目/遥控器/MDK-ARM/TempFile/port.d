@@ -1,0 +1,12 @@
+.\tempfile\port.o: FreeRTOS\protable\port.c
+.\tempfile\port.o: ./FreeRTOS/include/FreeRTOS.h
+.\tempfile\port.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\tempfile\port.o: D:\A\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tempfile\port.o: ./FreeRTOS/FreeRTOSConfig.h
+.\tempfile\port.o: ./FreeRTOS/include/projdefs.h
+.\tempfile\port.o: ./FreeRTOS/include/portable.h
+.\tempfile\port.o: ./FreeRTOS/include/deprecated_definitions.h
+.\tempfile\port.o: ./FreeRTOS/protable/portmacro.h
+.\tempfile\port.o: ./FreeRTOS/include/mpu_wrappers.h
+.\tempfile\port.o: ./FreeRTOS/include/task.h
+.\tempfile\port.o: ./FreeRTOS/include/list.h
